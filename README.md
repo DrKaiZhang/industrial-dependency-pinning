@@ -34,8 +34,7 @@ If you use this artefact, please cite the accompanying manuscript:
 
 > Zhang Kai. Dependency Surface and Version Pinning in Open-Source Industrial Software (under review).
 
-A DOI for this repository will be minted through Zenodo once the repository is
-archived; until then cite this GitHub URL.
+The release (v1.0.0) is permanently archived on Zenodo: https://doi.org/10.5281/zenodo.23444418.
 
 ## License
 
