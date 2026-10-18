@@ -15,6 +15,6 @@ keywords:
   - "repository mining"
 license: MIT
 repository-code: "https://github.com/DrKaiZhang/industrial-dependency-pinning"
-version: v1.0.0
-doi: 10.5281/zenodo.23444418
+version: v1.0.1
+doi: 10.5281/zenodo.23444417
 date-released: "2026-10-18"
