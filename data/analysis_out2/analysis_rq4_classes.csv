@@ -1,0 +1,17 @@
+project,domain,klass,n_dependencies,n_pinned,pinned_share,ecosystems,n_commits
+evcc,industrial-energy-control,dependency-dense,318,318,1.0,gomod;npm,1042
+Mainflux,industrial-IoT-platform,dependency-dense,223,223,1.0,gomod,1290
+Zephyr,embedded-OS,dependency-dense,83,82,0.988,npm;pypi;west,1000
+Beremiz,SCADA-runtime,dependency-minimal,42,42,1.0,pypi,4023
+ThingsBoard-Gateway,industrial-IoT-gateway,dependency-minimal,22,4,0.1818,pypi,3819
+IoTivity-Lite,IoT-middleware,dependency-minimal,20,18,0.9,gradle;pypi,2663
+RIOT,embedded-OS,dependency-minimal,13,9,0.6923,cargo;npm;pypi,50642
+Eclipse-Ditto,industrial-IoT-platform,dependency-minimal,7,1,0.1429,maven;npm,12920
+ESP-IDF,embedded-OS,dependency-minimal,6,0,0.0,pypi,55746
+ESP8266-Arduino,embedded-OS,dependency-minimal,6,6,1.0,pypi,1843
+pycomm3,industrial-protocol-client,dependency-minimal,5,1,0.2,pypi,838
+Mbed-OS,embedded-OS,dependency-minimal,4,4,1.0,pypi,34621
+node-opcua,industrial-protocol-stack,dependency-minimal,4,3,0.75,npm;nuget,1200
+Serial-Studio,industrial-HMI,dependency-minimal,4,4,1.0,nuget,1302
+Mosquitto,industrial-messaging,dependency-minimal,3,3,1.0,pypi,4885
+emoncms,industrial-energy-monitor,dependency-minimal,2,2,1.0,npm,5830

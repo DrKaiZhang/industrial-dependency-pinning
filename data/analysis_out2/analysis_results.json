@@ -1,0 +1,675 @@
+{
+  "evidence": {
+    "n_projects": 19,
+    "n_dependency_declarations": 1042,
+    "industrial_projects": 16,
+    "reference_projects": 3,
+    "industrial_domains": 11,
+    "method": "manifest content read from a local worktree at the analysed commit; git used only for metadata, so no historical blob is fetched -- version-difference claims are therefore out of scope and only the declared surface and its pinning are measured"
+  },
+  "rq1_surface_size": [
+    {
+      "group": "industrial",
+      "n_projects": 16,
+      "name": "industrial",
+      "n": 16,
+      "mean": 47.625,
+      "sd": 91.0955,
+      "min": 2,
+      "q1": 4.0,
+      "median": 6.5,
+      "q3": 27.0,
+      "max": 318,
+      "iqr": 23.0
+    },
+    {
+      "group": "reference",
+      "n_projects": 3,
+      "name": "reference",
+      "n": 3,
+      "mean": 37.3333,
+      "sd": 27.0062,
+      "min": 10,
+      "q1": 24.0,
+      "median": 38,
+      "q3": 51.0,
+      "max": 64,
+      "iqr": 27.0
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "evcc",
+      "domain": "industrial-energy-control",
+      "n": 318,
+      "median": 318,
+      "mean": 318,
+      "ecosystems": "gomod;npm"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "Mainflux",
+      "domain": "industrial-IoT-platform",
+      "n": 223,
+      "median": 223,
+      "mean": 223,
+      "ecosystems": "gomod"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "Zephyr",
+      "domain": "embedded-OS",
+      "n": 83,
+      "median": 83,
+      "mean": 83,
+      "ecosystems": "npm;pypi;west"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "Home-Assistant",
+      "domain": "home-automation",
+      "n": 64,
+      "median": 64,
+      "mean": 64,
+      "ecosystems": "pypi"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "Beremiz",
+      "domain": "SCADA-runtime",
+      "n": 42,
+      "median": 42,
+      "mean": 42,
+      "ecosystems": "pypi"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "Grafana",
+      "domain": "monitoring-UI",
+      "n": 38,
+      "median": 38,
+      "mean": 38,
+      "ecosystems": "gomod;npm;pypi"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "ThingsBoard-Gateway",
+      "domain": "industrial-IoT-gateway",
+      "n": 22,
+      "median": 22,
+      "mean": 22,
+      "ecosystems": "pypi"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "IoTivity-Lite",
+      "domain": "IoT-middleware",
+      "n": 20,
+      "median": 20,
+      "mean": 20,
+      "ecosystems": "gradle;pypi"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "RIOT",
+      "domain": "embedded-OS",
+      "n": 13,
+      "median": 13,
+      "mean": 13,
+      "ecosystems": "cargo;npm;pypi"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "Apache-Kafka",
+      "domain": "event-streaming",
+      "n": 10,
+      "median": 10,
+      "mean": 10,
+      "ecosystems": "gradle;maven;pypi"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "Eclipse-Ditto",
+      "domain": "industrial-IoT-platform",
+      "n": 7,
+      "median": 7,
+      "mean": 7,
+      "ecosystems": "maven;npm"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "ESP-IDF",
+      "domain": "embedded-OS",
+      "n": 6,
+      "median": 6,
+      "mean": 6,
+      "ecosystems": "pypi"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "ESP8266-Arduino",
+      "domain": "embedded-OS",
+      "n": 6,
+      "median": 6,
+      "mean": 6,
+      "ecosystems": "pypi"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "pycomm3",
+      "domain": "industrial-protocol-client",
+      "n": 5,
+      "median": 5,
+      "mean": 5,
+      "ecosystems": "pypi"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "Mbed-OS",
+      "domain": "embedded-OS",
+      "n": 4,
+      "median": 4,
+      "mean": 4,
+      "ecosystems": "pypi"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "node-opcua",
+      "domain": "industrial-protocol-stack",
+      "n": 4,
+      "median": 4,
+      "mean": 4,
+      "ecosystems": "npm;nuget"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "Serial-Studio",
+      "domain": "industrial-HMI",
+      "n": 4,
+      "median": 4,
+      "mean": 4,
+      "ecosystems": "nuget"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "Mosquitto",
+      "domain": "industrial-messaging",
+      "n": 3,
+      "median": 3,
+      "mean": 3,
+      "ecosystems": "pypi"
+    },
+    {
+      "group": "project",
+      "n_projects": 1,
+      "name": "emoncms",
+      "domain": "industrial-energy-monitor",
+      "n": 2,
+      "median": 2,
+      "mean": 2,
+      "ecosystems": "npm"
+    }
+  ],
+  "rq1_summary": {
+    "industrial": {
+      "name": "industrial",
+      "n": 16,
+      "mean": 47.625,
+      "sd": 91.0955,
+      "min": 2,
+      "q1": 4.0,
+      "median": 6.5,
+      "q3": 27.0,
+      "max": 318,
+      "iqr": 23.0
+    },
+    "reference": {
+      "name": "reference",
+      "n": 3,
+      "mean": 37.3333,
+      "sd": 27.0062,
+      "min": 10,
+      "q1": 24.0,
+      "median": 38,
+      "q3": 51.0,
+      "max": 64,
+      "iqr": 27.0
+    },
+    "test": {
+      "U": 14.0,
+      "z": -1.0645,
+      "p": 0.287116,
+      "effect_r": -0.4167,
+      "n_x": 16,
+      "n_y": 3,
+      "cliffs_delta": -0.4167,
+      "median_diff_ci": {
+        "point": -31.5,
+        "lo": -59.0,
+        "hi": 10.0,
+        "n_boot": 2000
+      }
+    }
+  },
+  "rq2_pinning": [
+    {
+      "group": "industrial",
+      "n_projects": 16,
+      "name": "industrial",
+      "n": 16,
+      "mean": 0.7409,
+      "sd": 0.3775,
+      "min": 0.0,
+      "q1": 0.5692,
+      "median": 0.994,
+      "q3": 1.0,
+      "max": 1.0,
+      "iqr": 0.4308
+    },
+    {
+      "group": "reference",
+      "n_projects": 3,
+      "name": "reference",
+      "n": 3,
+      "mean": 0.3856,
+      "sd": 0.4866,
+      "min": 0.1,
+      "q1": 0.1047,
+      "median": 0.1094,
+      "q3": 0.5284,
+      "max": 0.9474,
+      "iqr": 0.4237
+    }
+  ],
+  "rq2_test": {
+    "U": 9.0,
+    "z": -1.6844,
+    "p": 0.092106,
+    "effect_r": -0.625,
+    "n_x": 16,
+    "n_y": 3,
+    "cliffs_delta": 0.625,
+    "median_diff_ci": {
+      "point": 0.8846,
+      "lo": -0.1974,
+      "hi": 0.9,
+      "n_boot": 2000
+    }
+  },
+  "rq2_per_project": [
+    {
+      "project": "ESP8266-Arduino",
+      "group": "industrial",
+      "pinned_share": 1.0,
+      "n_deps": 6,
+      "n_pinned": 6
+    },
+    {
+      "project": "Mbed-OS",
+      "group": "industrial",
+      "pinned_share": 1.0,
+      "n_deps": 4,
+      "n_pinned": 4
+    },
+    {
+      "project": "Mosquitto",
+      "group": "industrial",
+      "pinned_share": 1.0,
+      "n_deps": 3,
+      "n_pinned": 3
+    },
+    {
+      "project": "Beremiz",
+      "group": "industrial",
+      "pinned_share": 1.0,
+      "n_deps": 42,
+      "n_pinned": 42
+    },
+    {
+      "project": "Mainflux",
+      "group": "industrial",
+      "pinned_share": 1.0,
+      "n_deps": 223,
+      "n_pinned": 223
+    },
+    {
+      "project": "evcc",
+      "group": "industrial",
+      "pinned_share": 1.0,
+      "n_deps": 318,
+      "n_pinned": 318
+    },
+    {
+      "project": "Serial-Studio",
+      "group": "industrial",
+      "pinned_share": 1.0,
+      "n_deps": 4,
+      "n_pinned": 4
+    },
+    {
+      "project": "emoncms",
+      "group": "industrial",
+      "pinned_share": 1.0,
+      "n_deps": 2,
+      "n_pinned": 2
+    },
+    {
+      "project": "Zephyr",
+      "group": "industrial",
+      "pinned_share": 0.988,
+      "n_deps": 83,
+      "n_pinned": 82
+    },
+    {
+      "project": "Grafana",
+      "group": "reference",
+      "pinned_share": 0.9474,
+      "n_deps": 38,
+      "n_pinned": 36
+    },
+    {
+      "project": "IoTivity-Lite",
+      "group": "industrial",
+      "pinned_share": 0.9,
+      "n_deps": 20,
+      "n_pinned": 18
+    },
+    {
+      "project": "node-opcua",
+      "group": "industrial",
+      "pinned_share": 0.75,
+      "n_deps": 4,
+      "n_pinned": 3
+    },
+    {
+      "project": "RIOT",
+      "group": "industrial",
+      "pinned_share": 0.6923,
+      "n_deps": 13,
+      "n_pinned": 9
+    },
+    {
+      "project": "pycomm3",
+      "group": "industrial",
+      "pinned_share": 0.2,
+      "n_deps": 5,
+      "n_pinned": 1
+    },
+    {
+      "project": "ThingsBoard-Gateway",
+      "group": "industrial",
+      "pinned_share": 0.1818,
+      "n_deps": 22,
+      "n_pinned": 4
+    },
+    {
+      "project": "Eclipse-Ditto",
+      "group": "industrial",
+      "pinned_share": 0.1429,
+      "n_deps": 7,
+      "n_pinned": 1
+    },
+    {
+      "project": "Home-Assistant",
+      "group": "reference",
+      "pinned_share": 0.1094,
+      "n_deps": 64,
+      "n_pinned": 7
+    },
+    {
+      "project": "Apache-Kafka",
+      "group": "reference",
+      "pinned_share": 0.1,
+      "n_deps": 10,
+      "n_pinned": 1
+    },
+    {
+      "project": "ESP-IDF",
+      "group": "industrial",
+      "pinned_share": 0.0,
+      "n_deps": 6,
+      "n_pinned": 0
+    }
+  ],
+  "rq3_concentration": {
+    "n_ecosystems": 8,
+    "ecosystem_counts": {
+      "gomod": 534,
+      "pypi": 282,
+      "npm": 116,
+      "west": 80,
+      "nuget": 11,
+      "maven": 9,
+      "gradle": 6,
+      "cargo": 4
+    },
+    "n_distinct_dependencies": 847,
+    "top10_dependency_share": 0.0413,
+    "top_dependencies": "typescript:5;jinja2:5;psutil:5;pyserial:4;requests:4;cryptography:4;click:4;google.golang.org/protobuf:4;github.com/pelletier/go-toml/v2:4;golang.org/x/mod:4;golang.org/x/text:4;golang.org/x/tools:4;urllib3:3;pyyaml:3;simplejson:3",
+    "most_common_ecosystems_share": 0.8944
+  },
+  "rq4_classes": [
+    {
+      "project": "evcc",
+      "domain": "industrial-energy-control",
+      "klass": "dependency-dense",
+      "n_dependencies": 318,
+      "n_pinned": 318,
+      "pinned_share": 1.0,
+      "ecosystems": "gomod;npm",
+      "n_commits": 1042
+    },
+    {
+      "project": "Mainflux",
+      "domain": "industrial-IoT-platform",
+      "klass": "dependency-dense",
+      "n_dependencies": 223,
+      "n_pinned": 223,
+      "pinned_share": 1.0,
+      "ecosystems": "gomod",
+      "n_commits": 1290
+    },
+    {
+      "project": "Zephyr",
+      "domain": "embedded-OS",
+      "klass": "dependency-dense",
+      "n_dependencies": 83,
+      "n_pinned": 82,
+      "pinned_share": 0.988,
+      "ecosystems": "npm;pypi;west",
+      "n_commits": 1000
+    },
+    {
+      "project": "Beremiz",
+      "domain": "SCADA-runtime",
+      "klass": "dependency-minimal",
+      "n_dependencies": 42,
+      "n_pinned": 42,
+      "pinned_share": 1.0,
+      "ecosystems": "pypi",
+      "n_commits": 4023
+    },
+    {
+      "project": "ThingsBoard-Gateway",
+      "domain": "industrial-IoT-gateway",
+      "klass": "dependency-minimal",
+      "n_dependencies": 22,
+      "n_pinned": 4,
+      "pinned_share": 0.1818,
+      "ecosystems": "pypi",
+      "n_commits": 3819
+    },
+    {
+      "project": "IoTivity-Lite",
+      "domain": "IoT-middleware",
+      "klass": "dependency-minimal",
+      "n_dependencies": 20,
+      "n_pinned": 18,
+      "pinned_share": 0.9,
+      "ecosystems": "gradle;pypi",
+      "n_commits": 2663
+    },
+    {
+      "project": "RIOT",
+      "domain": "embedded-OS",
+      "klass": "dependency-minimal",
+      "n_dependencies": 13,
+      "n_pinned": 9,
+      "pinned_share": 0.6923,
+      "ecosystems": "cargo;npm;pypi",
+      "n_commits": 50642
+    },
+    {
+      "project": "Eclipse-Ditto",
+      "domain": "industrial-IoT-platform",
+      "klass": "dependency-minimal",
+      "n_dependencies": 7,
+      "n_pinned": 1,
+      "pinned_share": 0.1429,
+      "ecosystems": "maven;npm",
+      "n_commits": 12920
+    },
+    {
+      "project": "ESP-IDF",
+      "domain": "embedded-OS",
+      "klass": "dependency-minimal",
+      "n_dependencies": 6,
+      "n_pinned": 0,
+      "pinned_share": 0.0,
+      "ecosystems": "pypi",
+      "n_commits": 55746
+    },
+    {
+      "project": "ESP8266-Arduino",
+      "domain": "embedded-OS",
+      "klass": "dependency-minimal",
+      "n_dependencies": 6,
+      "n_pinned": 6,
+      "pinned_share": 1.0,
+      "ecosystems": "pypi",
+      "n_commits": 1843
+    },
+    {
+      "project": "pycomm3",
+      "domain": "industrial-protocol-client",
+      "klass": "dependency-minimal",
+      "n_dependencies": 5,
+      "n_pinned": 1,
+      "pinned_share": 0.2,
+      "ecosystems": "pypi",
+      "n_commits": 838
+    },
+    {
+      "project": "Mbed-OS",
+      "domain": "embedded-OS",
+      "klass": "dependency-minimal",
+      "n_dependencies": 4,
+      "n_pinned": 4,
+      "pinned_share": 1.0,
+      "ecosystems": "pypi",
+      "n_commits": 34621
+    },
+    {
+      "project": "node-opcua",
+      "domain": "industrial-protocol-stack",
+      "klass": "dependency-minimal",
+      "n_dependencies": 4,
+      "n_pinned": 3,
+      "pinned_share": 0.75,
+      "ecosystems": "npm;nuget",
+      "n_commits": 1200
+    },
+    {
+      "project": "Serial-Studio",
+      "domain": "industrial-HMI",
+      "klass": "dependency-minimal",
+      "n_dependencies": 4,
+      "n_pinned": 4,
+      "pinned_share": 1.0,
+      "ecosystems": "nuget",
+      "n_commits": 1302
+    },
+    {
+      "project": "Mosquitto",
+      "domain": "industrial-messaging",
+      "klass": "dependency-minimal",
+      "n_dependencies": 3,
+      "n_pinned": 3,
+      "pinned_share": 1.0,
+      "ecosystems": "pypi",
+      "n_commits": 4885
+    },
+    {
+      "project": "emoncms",
+      "domain": "industrial-energy-monitor",
+      "klass": "dependency-minimal",
+      "n_dependencies": 2,
+      "n_pinned": 2,
+      "pinned_share": 1.0,
+      "ecosystems": "npm",
+      "n_commits": 5830
+    }
+  ],
+  "rq4_counts": {
+    "dependency-dense": 3,
+    "dependency-minimal": 13
+  },
+  "rq4_pinning_by_class": {
+    "dense": {
+      "name": "dense",
+      "n": 3,
+      "mean": 0.996,
+      "sd": 0.0069,
+      "min": 0.988,
+      "q1": 0.994,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "iqr": 0.006
+    },
+    "minimal": {
+      "name": "minimal",
+      "n": 13,
+      "mean": 0.6821,
+      "sd": 0.3976,
+      "min": 0.0,
+      "q1": 0.2,
+      "median": 0.9,
+      "q3": 1.0,
+      "max": 1.0,
+      "iqr": 0.8
+    }
+  },
+  "rq4_test": {
+    "U": 12.0,
+    "z": -1.0059,
+    "p": 0.314454,
+    "effect_r": -0.3846,
+    "n_x": 3,
+    "n_y": 13,
+    "cliffs_delta": 0.3846
+  },
+  "rq4_dense_ecosystems": {
+    "gomod": 481,
+    "west": 80,
+    "npm": 63,
+    "pypi": 4
+  }
+}

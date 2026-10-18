@@ -1,0 +1,99 @@
+{
+  "projects": {
+    "riot": {
+      "domain": "embedded-OS",
+      "group": "industrial"
+    },
+    "zephyr": {
+      "domain": "embedded-OS",
+      "group": "industrial"
+    },
+    "esp-idf": {
+      "domain": "embedded-OS",
+      "group": "industrial"
+    },
+    "esp8266_ard": {
+      "domain": "embedded-OS",
+      "group": "industrial"
+    },
+    "mbed-os": {
+      "domain": "embedded-OS",
+      "group": "industrial"
+    },
+    "freertos": {
+      "domain": "RTOS-kernel",
+      "group": "industrial"
+    },
+    "iotivity": {
+      "domain": "IoT-middleware",
+      "group": "industrial"
+    },
+    "mosquitto": {
+      "domain": "industrial-messaging",
+      "group": "industrial"
+    },
+    "beremiz": {
+      "domain": "SCADA-runtime",
+      "group": "industrial"
+    },
+    "pycomm3": {
+      "domain": "industrial-protocol-client",
+      "group": "industrial"
+    },
+    "ros2_control": {
+      "domain": "industrial-robot-control",
+      "group": "industrial"
+    },
+    "ditto": {
+      "domain": "industrial-IoT-platform",
+      "group": "industrial"
+    },
+    "hivemq": {
+      "domain": "industrial-messaging",
+      "group": "industrial"
+    },
+    "mainflux": {
+      "domain": "industrial-IoT-platform",
+      "group": "industrial"
+    },
+    "tb_gateway": {
+      "domain": "industrial-IoT-gateway",
+      "group": "industrial"
+    },
+    "node_opcua": {
+      "domain": "industrial-protocol-stack",
+      "group": "industrial"
+    },
+    "ua_net": {
+      "domain": "industrial-protocol-stack",
+      "group": "industrial"
+    },
+    "evcc": {
+      "domain": "industrial-energy-control",
+      "group": "industrial"
+    },
+    "serial_studio": {
+      "domain": "industrial-HMI",
+      "group": "industrial"
+    },
+    "emoncms": {
+      "domain": "industrial-energy-monitor",
+      "group": "industrial"
+    },
+    "grafana": {
+      "domain": "monitoring-UI",
+      "group": "reference"
+    },
+    "ha_core": {
+      "domain": "home-automation",
+      "group": "reference"
+    },
+    "kafka": {
+      "domain": "event-streaming",
+      "group": "reference"
+    }
+  },
+  "n_projects": 19,
+  "n_dependency_entries": 1042,
+  "method": "manifest content read from a local worktree at HEAD; git is used only for metadata (rev-list, ls-tree), so no historical blob is fetched"
+}

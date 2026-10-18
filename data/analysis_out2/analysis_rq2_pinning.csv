@@ -1,0 +1,3 @@
+group,n_projects,name,n,mean,sd,min,q1,median,q3,max,iqr
+industrial,16,industrial,16,0.7409,0.3775,0.0,0.5692,0.994,1.0,1.0,0.4308
+reference,3,reference,3,0.3856,0.4866,0.1,0.1047,0.1094,0.5284,0.9474,0.4237
